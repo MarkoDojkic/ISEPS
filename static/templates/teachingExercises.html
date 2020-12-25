@@ -1,0 +1,21 @@
+<div class="card text-center" style="width: 90%; margin:0px auto; font-size: 1.2em; height: 62vh;">
+    <div style="width: 73%; overflow-y: scroll; height: 60vh; margin-right: 2%; float: left;">
+        <form class="text-center" target="phpIframe" action="{FORM_ACTION}" method="post">
+            <table class="table table-bordered table-inverse table-responsive">
+                <thead class="thead-inverse bg-primary">
+                    <tr>
+                        <th>{PROFESSOR_TITLE}</th>
+                        <th>{SUBJECT_TITLE}</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {tBody}
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div style="width: 23%; height: 60vh; margin-right: 2%; float: left;">
+        <iframe id="phpIframe" name="phpIframe" src="" class="card-footer text-muted" style="height: 100%; border:0px;"></iframe>
+    </div>
+</div>

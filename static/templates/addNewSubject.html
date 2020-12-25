@@ -1,0 +1,30 @@
+<div class="card text-center" style="width: 60rem; margin:0px auto; font-size: 1.2em;">
+    <div class="card-body">
+        <br>
+        <form target="phpIframe" action="{FORM_ACTION}" method="post">
+            <div class="form-group">
+                <label for="subject_name">{SUBJECT_NAME_TITLE}</label>
+                <input type="text" class="form-control" name="subject_name" id="subject_name" autocomplete="subject_name" placeholder="Веб базирани информациони системи/Web based information systems">
+            </div>
+            <div class="form-group">
+                <label for="assistant_selection">{ASSISTANT_SELECTION_TITLE}</label>
+                <select class="form-control" name="assistant_selection" id="assistant_selection">
+                    {ASSISTANT_SELECTION_VALUES}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="studies[]">{STUDY_TITLE}</label>
+                <select class="form-control" name="studies[]" multiple="" size="{STUDY_SIZE}">
+                    {STUDY_VALUES}
+                </select>
+            </div>							
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">{ADD_NEW_SUBJECT}</button>
+                <button type="reset" class="btn btn-danger">{RESET}</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <iframe id="phpIframe" name="phpIframe" src="" class="card-footer text-muted" height="90rem"></iframe>
+    <br>
+</div>

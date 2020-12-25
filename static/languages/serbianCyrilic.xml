@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISEPS>
+  <navigation>
+     <title>Информациони систем за евидентирање присуства студената</title>
+     <homePage>
+        <link1>
+           <name>Пријави се</name>
+           <href>login</href>
+        </link1>
+     </homePage>
+     <adminPage>
+        <link1>
+           <name>Региструјте особље</name>
+           <href>staff_registration</href>
+        </link1>
+        <link2>
+           <name>Управљајте особљем</name>
+           <href>staff_management</href>
+        </link2>
+        <link3>
+           <name>Управљање студентима</name>
+           <href>students_management</href>
+        </link3>
+        <link4>
+           <name>Прегледајте извештаје</name>
+           <href>admin_reports</href>
+        </link4>
+     </adminPage>
+     <professorPage>
+        <link1>
+           <name>Управљање наставним предметима</name>
+           <href>teaching_subject_management</href>
+        </link1>
+        <link2>
+           <name>Додај нови предмет</name>
+           <href>add_new_subject</href>
+        </link2>
+        <link3>
+           <name>Погледајте Ваше извештаје</name>
+           <href>professor_reports</href>
+        </link3>
+     </professorPage>
+     <assistantPage>
+        <link1>
+           <name>Управљање вежбама</name>
+           <href>teaching_exercises</href>
+        </link1>
+        <link2>
+           <name>Погледајте извештаје о вежбама</name>
+           <href>exercises_reports</href>
+        </link2>
+     </assistantPage>
+  </navigation>
+  <loginPage>
+     <headerTitle>Унесите свој идентификациони број и лозинку и одаберите начин пријаве.</headerTitle>
+     <id>Идентификациони број</id>
+     <login>Пријави се</login>
+  </loginPage>
+  <adminPage>
+     <passwordTitle>Унесите нову лозинку испод</passwordTitle>
+     <roleTitle>Врста налога</roleTitle>
+     <switchRoleBtn>Промените врсту налога</switchRoleBtn>
+     <editBtn>Измени</editBtn>
+     <deleteBtn>Избриши</deleteBtn>
+     <indexNumber>Број индекса</indexNumber>
+     <facultySY>Факултет - Студије (уписана година) * НЕМА УРЕЂИВАЊА</facultySY>
+  </adminPage>
+  <professorPage>
+     <subject_name>Назив предмета (српски / енглески)</subject_name>
+     <assistant_selection>Изаберите асистента који ће бити одговоран за вежбе (или немојте да изаберете ни једног асистента)</assistant_selection>
+     <study>Изаберите студије које ће похађати овај курс (изаберите по години студија)</study>
+     <add_new_subject>Додај предмет</add_new_subject>
+     <addSubjectSuccessfull>Нови предмет је успешно додат.</addSubjectSuccessfull>
+     <detailsBtn>Детаљи</detailsBtn>
+     <cancelBtn>Откажи</cancelBtn>
+     <lecturesBtn>Предавања</lecturesBtn>
+     <startSYBtn>Започните нову школску годину</startSYBtn>
+     <endSYBtn>Крај текуће школске године</endSYBtn>
+     <lectureSelection>Изаберите предавање</lectureSelection>
+     <lectureStartBtn>Започните ново предавање</lectureStartBtn>
+     <startNewLectureSuccessfull>Ново предавање је успешно започето</startNewLectureSuccessfull>
+     <notOverYet>Предавање још није завршено</notOverYet>
+     <selectSubject>Изаберите ИД предмета</selectSubject>
+     <attended>Присутни студенти</attended>
+     <notAttended>Одсутни студенти</notAttended>
+     <barChartTitle>Извештај о присуству на предавањима</barChartTitle>
+     <generateBGraph>Генериши тракасти графикон</generateBGraph>
+     <generatePGraph>Генериши торта графикон</generatePGraph>
+     <pieChartTitle>Укупно присуство (%) на предавањима.</pieChartTitle>
+  </professorPage>
+  <assistantPage>
+     <exercisesBtn>Вежбе</exercisesBtn>
+     <viewStudentsBtn>Погледајте своје студенте</viewStudentsBtn>
+     <viewStudentsText>*** Студенти који похађају овај предмет су ***</viewStudentsText>
+     <schoolYearOver>Немате уписаних студената или је школска година завршена. Молимо сачекајте да професор започне нову школску годину.</schoolYearOver>
+     <startTime>Почело у</startTime>
+     <endTime>Завршено у</endTime>
+     <attendance>Информације о присуству студената</attendance>
+     <exerciseSelection>Изаберите вежбу</exerciseSelection>
+     <exerciseStartBtn>Започните нову вежбу</exerciseStartBtn>
+     <startNewExerciseSuccessfull>Нова вежба је успешно започета</startNewExerciseSuccessfull>
+     <notOverYet>Вежба још није готова</notOverYet>
+     <barChartTitle>Извештај о присуству на вежбама</barChartTitle>
+     <pieChartTitle>Укупно присуство (%) на вежбама.</pieChartTitle>
+  </assistantPage>
+  <registrationPage>
+     <headerTitle>Молимо Вас да попуните доњи образац за регистрацију.</headerTitle>
+     <nameSurname>Име и презиме</nameSurname>
+     <email>Универзитетска е-пошта</email>
+     <password>Лозинка</password>
+     <passwordConfirm>Поновите лозинку</passwordConfirm>
+     <professor>Професор</professor>
+     <assistant>Асистент</assistant>
+     <captcha>Унесите текст са слике</captcha>
+     <register>Региструј се</register>
+     <reset>Ресетуј образац</reset>
+     <successfullRegistration>Регистрација успешна. Ваш ИД је:</successfullRegistration>
+     <pageReload>Страница ће се поново учитати за 5 секунди.</pageReload>
+     <csvMessage>Изаберите .csv датотеку за аутоматску регистрацију особља</csvMessage>
+     <csvAllSuccessfull>Сви подаци CSV датотеке су успешно увезени.</csvAllSuccessfull>
+  </registrationPage>
+  <footer>
+     <copyright>© 2020 Марко Дојкић (2018/201682)</copyright>
+     <language1>Енглески</language1>
+     <language2>Српски</language2>
+     <language3>Српски (латиница)</language3>
+  </footer>
+  <errors>
+     <wrong_nS>Формат уноса за поље „Име и презиме“ је неважећи (исправан пример: Марко Марковић).</wrong_nS>
+     <wrong_pass>Формат уноса за поље „Лозинка“ или сама лозинка је неважећа. Лозинка мора садржати најмање једно велико, једно мало слово и један број.</wrong_pass>
+     <wrong_email>Формат уноса за поље „Универзитетска е-пошта“ је неважећи. Унесите важећу универзитетску е-адресу (која се завршава са: @ universityMail.rs).</wrong_email>
+     <missmatched_pass>"Лозинка" и "Понови лозинку" се не подударају.</missmatched_pass>
+     <notSelected_registerAs>Нисте изабрали да ли желите да се региструјете као професор или асистент.</notSelected_registerAs>
+     <invalid_captcha>Унети текст се не подудара са текстом на слици.</invalid_captcha>
+     <registrationError>Корисник већ постоји у бази података</registrationError>
+     <wrong_id>Ваш идентификациони број је нетачан или не постоји. Молимо проверите поново.</wrong_id>
+     <wrong_indexNo>Формат уноса за поље „Број индекса“ је неважећи (исправан пример: 2020/123456).</wrong_indexNo>
+     <deleteError>Интерна грешка сервера при покушају брисања корисника.</deleteError>
+     <notAtAdminPanel>Да бисте се пријавили као Администратор, користите „Администраторску таблу“.</notAtAdminPanel>
+     <wrong_sN>Формат уноса за „Назив предмета“ је неважећи. Мора бити обликован као (... / ...).</wrong_sN>
+     <did_not_selected_any_study>Морате одабрати бар један смер који ће слушати овај предмет.</did_not_selected_any_study>
+     <addSubjectError>Интерна грешка сервера при покушају додавања новог предмета. Контактирајте администратора или покушајте поново касније.</addSubjectError>
+     <switchRoleError0>Интерна грешка сервера приликом покушаја промене врсте налога. Контактирајте администратора или покушајте поново касније.</switchRoleError0>
+     <switchRoleError1>Није могуће променити врсту налога</switchRoleError1>
+     <switchRoleError2>јер има предмет (е) који су му / јој додељени.</switchRoleError2>
+     <editSubjectError>Интерна грешка сервера при покушају уређивања предмета. Контактирајте администратора или покушајте поново касније.</editSubjectError>
+     <edit_wrong_sN0>Погрешно или празно оригинално име предмета</edit_wrong_sN0>
+     <edit_wrong_sN1>Погрешно или празно енглеско име предмета</edit_wrong_sN1>
+     <viewAttendingStudentsError>Интерна грешка сервера приликом покушаја прегледа предмета који похађају. Контактирајте администратора или покушајте поново касније.</viewAttendingStudentsError>
+     <startCSYError>Интерна грешка сервера приликом покушаја започињања нове школске године предмета. Контактирајте администратора или покушајте поново касније.</startCSYError>
+     <endCSYError>Интерна грешка сервера при покушају завршетка текуће школске године предмета. Контактирајте администратора или покушајте поново касније.</endCSYError>
+     <getLEInfoError>Интерна грешка сервера приликом покушаја добијања информација о предавањима / вежбама. Контактирајте администратора или покушајте поново касније.</getLEInfoError>
+     <viewLEError>Интерна грешка сервера приликом покушаја прегледа предавања / вежби. Контактирајте администратора или покушајте поново касније.</viewLEError>
+     <LELengthInvalid>Неважећи термин за предавање / вежбу. То мора трајати од 45 минута до 6 сати.</LELengthInvalid>
+     <startLEError>Интерна грешка сервера приликом покушаја додавања новог предавања / вежби. Контактирајте администратора или покушајте поново касније.</startLEError>
+     <csvInvalidError>CSV датотека је неважећа.</csvInvalidError>
+     <csvInvalidUsers>Подаци CSV датотеке су делимично увезени. Неважећи редови садрже следеће адресе е-поште:</csvInvalidUsers>
+     <csvInvalidUser>Неважећи корисник</csvInvalidUser>
+     <graphNotGenerated>Нису пронађене датотеке евиденције присуства. Графикон није могуће генерисати.</graphNotGenerated>
+  </errors>
+</ISEPS>

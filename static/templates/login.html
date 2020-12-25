@@ -1,0 +1,29 @@
+<div class="card text-center" style="width: 36rem; margin:0px auto; font-size: 1.2em;">
+    <div class="card-header">
+        {HEADER_TITLE}
+    </div>
+    <div class="card-body">
+        <br>
+        <form target="phpIframe" action="{FORM_ACTION}" method="post">
+            <div class="form-group">
+                <input type="number" class="form-control" name="id" placeholder="{id}" min="2"> <!-- minimalno 2 jer je ID: 1 administrator-->
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="{password}">
+            </div>
+            <div class="form-group">
+                <img src="{IMAGE_SRC}" alt="Captcha image" class="captcha-image">
+                <br><br>
+                <input type="text" id="captcha" name="captcha" pattern="[A-Z]{6}" placeholder="{captcha}" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <br>
+                <button type="submit" class="btn btn-success">{LOGIN}</button>
+                <button type="reset" class="btn btn-danger">{RESET}</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <iframe id="phpIframe" name="phpIframe" src="" class="card-footer text-muted" height="90rem"></iframe>
+    <br>
+</div>
