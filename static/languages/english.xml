@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISEPS>
+   <navigation>
+      <title>Information system for recording student attendace</title>
+      <homePage>
+         <link1>
+            <name>Login</name>
+            <href>login</href>
+         </link1>
+      </homePage>
+      <adminPage>
+         <link1>
+            <name>Register staff</name>
+            <href>staff_registration</href>
+         </link1>
+         <link2>
+            <name>Manage staff</name>
+            <href>staff_management</href>
+         </link2>
+         <link3>
+            <name>Manage students</name>
+            <href>students_management</href>
+         </link3>
+         <link4>
+            <name>View and print reports</name>
+            <href>admin_reports</href>
+         </link4>
+      </adminPage>
+      <professorPage>
+         <link1>
+            <name>Teaching subjects management</name>
+            <href>teaching_subject_management</href>
+         </link1>
+         <link2>
+            <name>Add new subject</name>
+            <href>add_new_subject</href>
+         </link2>
+         <link3>
+            <name>View my subject reports</name>
+            <href>professor_reports</href>
+         </link3>
+      </professorPage>
+      <assistantPage>
+         <link1>
+            <name>Teaching exercises</name>
+            <href>teaching_exercises</href>
+         </link1>
+         <link2>
+            <name>View exercises reports</name>
+            <href>exercises_reports</href>
+         </link2>
+      </assistantPage>
+   </navigation>
+   <loginPage>
+      <headerTitle>Enter your identification number and password and choose role to login.</headerTitle>
+      <id>Identification number</id>
+      <admin>Administrator</admin>
+      <login>Login</login>
+   </loginPage>
+   <adminPage>
+      <passwordTitle>Enter new password below</passwordTitle>
+      <roleTitle>Role</roleTitle>
+      <switchRoleBtn>Switch role</switchRoleBtn>
+      <editBtn>Edit</editBtn>
+      <deleteBtn>Delete</deleteBtn>
+      <indexNumber>Index number</indexNumber>
+      <facultySY>Faculty - Study (enrolled year) *NOT EDITABLE</facultySY>
+   </adminPage>
+   <professorPage>
+      <subject_name>Subject name (serbian/english)</subject_name>
+      <assistant_selection>Choose assistant who will be responsible for exercises (or choose none)</assistant_selection>
+      <study>Choose studies that will take this course (choose by year of study)</study>
+      <add_new_subject>Add subject</add_new_subject>
+      <addSubjectSuccessfull>New subject added successfully.</addSubjectSuccessfull>
+      <detailsBtn>Details</detailsBtn>
+      <cancelBtn>Cancel</cancelBtn>
+      <lecturesBtn>Lectures</lecturesBtn>
+      <startSYBtn>Start new school year</startSYBtn>
+      <endSYBtn>End current school year</endSYBtn>
+      <lectureSelection>Select lecture</lectureSelection>
+      <lectureStartBtn>Start new lecture</lectureStartBtn>
+      <startNewLectureSuccessfull>New lecture started successfully</startNewLectureSuccessfull>
+      <notOverYet>Lecture not over yet</notOverYet>
+      <selectSubject>Select subject id</selectSubject>
+      <attended>Attended students</attended>
+      <notAttended>Absent students</notAttended>
+      <barChartTitle>Attendace record for lectures</barChartTitle>
+      <generateBGraph>Generate bar graph</generateBGraph>
+      <generatePGraph>Generate pie chart graph</generatePGraph>
+      <pieChartTitle>Total attendace (%) on lectures.</pieChartTitle>
+   </professorPage>
+   <assistantPage>
+      <exercisesBtn>Exercises</exercisesBtn>
+      <viewStudentsBtn>View you're students</viewStudentsBtn>
+      <viewStudentsText>***Students attending this class are***</viewStudentsText>
+      <schoolYearOver>You have no students enrolled or School year is over. Please wait for professor to start new school year.</schoolYearOver>
+      <startTime>Started at</startTime>
+      <endTime>Finished at</endTime>
+      <attendance>Student attendace information</attendance>
+      <exerciseSelection>Select exercise</exerciseSelection>
+      <exerciseStartBtn>Start new exercise</exerciseStartBtn>
+      <startNewExerciseSuccessfull>New exercise started successfully</startNewExerciseSuccessfull>
+      <notOverYet>Exercise not over yet</notOverYet>
+      <barChartTitle>Attendace record for exercises</barChartTitle>
+      <pieChartTitle>Total attendace (%) on exercises.</pieChartTitle>
+   </assistantPage>
+   <registrationPage>
+      <headerTitle>Please complete form below to register.</headerTitle>
+      <nameSurname>Name and surname</nameSurname>
+      <email>University email</email>
+      <password>Password</password>
+      <passwordConfirm>Repeat password</passwordConfirm>
+      <professor>Professor</professor>
+      <assistant>Assistant</assistant>
+      <captcha>Enter captcha text</captcha>
+      <register>Register</register>
+      <reset>Reset form</reset>
+      <successfullRegistration>Registration successfull. You're ID is:</successfullRegistration>
+      <pageReload>Page will reload in 5 seconds.</pageReload>
+      <csvMessage>Select .csv file for automatic staff registration</csvMessage>
+      <csvAllSuccessfull>All CSV file data imported successfully.</csvAllSuccessfull>
+   </registrationPage>
+   <footer>
+      <copyright>© 2020 Marko Dojkić (2018/201682)</copyright>
+      <language1>English</language1>
+      <language2>Serbian (cyrilic)</language2>
+      <language3>Serbian (latin)</language3>
+   </footer>
+   <errors>
+      <wrong_nS>Input format for "Name and surname" field is invalid (correct example: John Smith).</wrong_nS>
+      <wrong_pass>Input format for "Password" field or password itself is invalid. Password must include at least one uppercase, one lowercase, and one number.</wrong_pass>
+      <wrong_email>Input format for "University Email" field is invalid. Please enter valid university email (ending with: @universityMail.rs).</wrong_email>
+      <missmatched_pass>"Password" and "Repeat password" doesn't match.</missmatched_pass>
+      <notSelected_registerAs>You haven't selected whether you wanna register as Professor or Assistant.</notSelected_registerAs>
+      <invalid_captcha>Captcha text doesn't match image text.</invalid_captcha>
+      <registrationError>User already exists in database.</registrationError>
+      <wrong_id>Your identification number is either incorrect or not existant. Please check again.</wrong_id>
+      <wrong_indexNo>Input format for "Index number" field is invalid (correct example: 2020/123456).</wrong_indexNo>
+      <deleteError>Internal server error while trying to delete user.</deleteError>
+      <notAtAdminPanel>To login as Administrator please use "Administrator Panel".</notAtAdminPanel>
+      <wrong_sN>Input format for "Subject name" is invalid. It must be formated as (.../...).</wrong_sN>
+      <did_not_selected_any_study>You must select at least one study that is taking this course.</did_not_selected_any_study>
+      <addSubjectError>Internal server error while trying to add new subject. Contact administrator or try again later.</addSubjectError>
+      <switchRoleError0>Internal server error while trying to switch role. Contact administrator or try again later.</switchRoleError0>
+      <switchRoleError1>Cannot switch role of</switchRoleError1>
+      <switchRoleError2>because he/she has subject(s) assigned to him/her.</switchRoleError2>
+      <editSubjectError>Internal server error while trying to edit subject. Contact administrator or try again later.</editSubjectError>
+      <edit_wrong_sN0>Wrong or empty original subject name</edit_wrong_sN0>
+      <edit_wrong_sN1>Wrong or empty english subject name</edit_wrong_sN1>
+      <viewAttendingStudentsError>Internal server error while trying to view attending subjects. Contact administrator or try again later.</viewAttendingStudentsError>
+      <startCSYError>Internal server error while trying to start new subject year. Contact administrator or try again later.</startCSYError>
+      <endCSYError>Internal server error while trying to end current subject year. Contact administrator or try again later.</endCSYError>
+      <getLEInfoError>Internal server error while trying to get lecture/exercise info. Contact administrator or try again later.</getLEInfoError>
+      <viewLEError>Internal server error while trying to view lectures/exercises. Contact administrator or try again later.</viewLEError>
+      <LELengthInvalid>Invalid lecture/exercise time slot. It must last from 45 minutes up to 6 hours.</LELengthInvalid>
+      <startLEError>Internal server error while trying to add new lecture/exercise. Contact administrator or try again later.</startLEError>
+      <csvInvalidError>CSV file is invalid.</csvInvalidError>
+      <csvInvalidUsers>CSV file data partially imported. Invalid rows contain following email addresses:</csvInvalidUsers>
+      <csvInvalidUser>Invalid user</csvInvalidUser>
+      <graphNotGenerated>No log files found. Graph could not be generated.</graphNotGenerated>
+   </errors>
+</ISEPS>
