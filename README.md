@@ -1,5 +1,5 @@
 # ISEPS - Information system for recording student attendace
-Final exam project for internet based information systems course. 
+Final exam project for web based information systems course. 
 Implementation plan:
 
   - Modules: Logging, Registration, Teaching Subject Management, Starting a New Lecture / New Exercises, Generating a Report.
