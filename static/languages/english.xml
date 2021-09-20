@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ISEPS>
    <navigation>
-      <title>Information system for recording student attendace</title>
+      <title>SingiAttend web application</title>
       <homePage>
          <link1>
             <name>Login</name>
@@ -64,7 +64,7 @@
       <editBtn>Edit</editBtn>
       <deleteBtn>Delete</deleteBtn>
       <indexNumber>Index number</indexNumber>
-      <facultySY>Faculty - Study (enrolled year) *NOT EDITABLE</facultySY>
+      <facultySY>Faculty - Study (enrolled year)</facultySY>
    </adminPage>
    <professorPage>
       <subject_name>Subject name (serbian/english)</subject_name>
@@ -77,6 +77,8 @@
       <lecturesBtn>Lectures</lecturesBtn>
       <startSYBtn>Start new school year</startSYBtn>
       <endSYBtn>End current school year</endSYBtn>
+      <startTime>Started at</startTime>
+      <endTime>Finished at</endTime>
       <lectureSelection>Select lecture</lectureSelection>
       <lectureStartBtn>Start new lecture</lectureStartBtn>
       <startNewLectureSuccessfull>New lecture started successfully</startNewLectureSuccessfull>
@@ -129,13 +131,13 @@
    <errors>
       <wrong_nS>Input format for "Name and surname" field is invalid (correct example: John Smith).</wrong_nS>
       <wrong_pass>Input format for "Password" field or password itself is invalid. Password must include at least one uppercase, one lowercase, and one number.</wrong_pass>
-      <wrong_email>Input format for "University Email" field is invalid. Please enter valid university email (ending with: @universityMail.rs).</wrong_email>
+      <wrong_email>Input format for "University Email" field is invalid. Please enter valid university email (ending with: @singidunum.ac.rs).</wrong_email>
       <missmatched_pass>"Password" and "Repeat password" doesn't match.</missmatched_pass>
       <notSelected_registerAs>You haven't selected whether you wanna register as Professor or Assistant.</notSelected_registerAs>
       <invalid_captcha>Captcha text doesn't match image text.</invalid_captcha>
       <registrationError>User already exists in database.</registrationError>
       <wrong_id>Your identification number is either incorrect or not existant. Please check again.</wrong_id>
-      <wrong_indexNo>Input format for "Index number" field is invalid (correct example: 2020/123456).</wrong_indexNo>
+      <wrong_index>Input format for "Index number" field is invalid (correct example: 2020/123456).</wrong_index>
       <deleteError>Internal server error while trying to delete user.</deleteError>
       <notAtAdminPanel>To login as Administrator please use "Administrator Panel".</notAtAdminPanel>
       <wrong_sN>Input format for "Subject name" is invalid. It must be formated as (.../...).</wrong_sN>

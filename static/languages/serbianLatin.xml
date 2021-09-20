@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ISEPS>
   <navigation>
-     <title>Informacioni sistem za evidentiranje prisustva studenata</title>
+     <title>SingiAttend veb aplikacija</title>
      <homePage>
         <link1>
            <name>Prijavi se</name>
@@ -64,7 +64,7 @@
      <editBtn>Izmeni</editBtn>
      <deleteBtn>Izbriši</deleteBtn>
      <indexNumber>Broj indeksa</indexNumber>
-     <facultySY>Fakultet - Studije (upisana godina) * NEMA UREĐIVANjA</facultySY>
+     <facultySY>Fakultet - Studije (upisana godina)</facultySY>
   </adminPage>
   <professorPage>
      <subject_name>Naziv predmeta (srpski / engleski)</subject_name>
@@ -77,6 +77,8 @@
      <lecturesBtn>Predavanja</lecturesBtn>
      <startSYBtn>Započnite novu školsku godinu</startSYBtn>
      <endSYBtn>Kraj tekuće školske godine</endSYBtn>
+     <startTime>Počelo u</startTime>
+     <endTime>Završeno u</endTime>
      <lectureSelection>Izaberite predavanje</lectureSelection>
      <lectureStartBtn>Započnite novo predavanje</lectureStartBtn>
      <startNewLectureSuccessfull>Novo predavanje je uspešno započeto</startNewLectureSuccessfull>
@@ -129,13 +131,13 @@
   <errors>
      <wrong_nS>Format unosa za polje „Ime i prezime“ je nevažeći (ispravan primer: Marko Marković).</wrong_nS>
      <wrong_pass>Format unosa za polje „Lozinka“ ili sama lozinka je nevažeća. Lozinka mora sadržati najmanje jedno veliko, jedno malo slovo i jedan broj.</wrong_pass>
-     <wrong_email>Format unosa za polje „Univerzitetska e-pošta“ je nevažeći. Unesite važeću univerzitetsku e-adresu (koja se završava sa: @ universityMail.rs).</wrong_email>
+     <wrong_email>Format unosa za polje „Univerzitetska e-pošta“ je nevažeći. Unesite važeću univerzitetsku e-adresu (koja se završava sa: @singidunum.ac.rs).</wrong_email>
      <missmatched_pass>"Lozinka" i "Ponovi lozinku" se ne podudaraju.</missmatched_pass>
      <notSelected_registerAs>Niste izabrali da li želite da se registrujete kao profesor ili asistent.</notSelected_registerAs>
      <invalid_captcha>Uneti tekst se ne podudara sa tekstom na slici.</invalid_captcha>
      <registrationError>Korisnik već postoji u bazi podataka</registrationError>
      <wrong_id>Vaš identifikacioni broj je netačan ili ne postoji. Molimo proverite ponovo.</wrong_id>
-     <wrong_indexNo>Format unosa za polje „Broj indeksa“ je nevažeći (ispravan primer: 2020/123456).</wrong_indexNo>
+     <wrong_index>Format unosa za polje „Broj indeksa“ je nevažeći (ispravan primer: 2020/123456).</wrong_index>
      <deleteError>Interna greška servera pri pokušaju brisanja korisnika.</deleteError>
      <notAtAdminPanel>Da biste se prijavili kao Administrator, koristite „Administratorsku tablu“.</notAtAdminPanel>
      <wrong_sN>Format unosa za „Naziv predmeta“ je nevažeći. Mora biti oblikovan kao (... / ...).</wrong_sN>
