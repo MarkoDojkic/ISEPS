@@ -456,7 +456,7 @@ INSERT INTO `study` (`study_id`, `title`, `titleEnglish`, `faculty_id`, `taughtI
 (9, 'Животна средина и одрживи развој', 'Environment and Sustainable Development', 6, 'srpski'),
 (10, 'Пословна економија', 'Business Economics', 1, 'engleski'),
 (11, 'Англистика', 'Anglistics', 1, 'engleski'),
-(12, 'Туризам, хотелијарство и економија хране', 'Tourism, Hospitality and Food Economics', 2, 'engleski'),
+(12, 'Туризам, хотелијерство и економија хране', 'Tourism, Hospitality and Food Economics', 2, 'engleski'),
 (13, 'Информационе технологије', 'Information Technology', 3, 'engleski'),
 (14, 'Софтверско и информационо инжењерство', 'Software and Data Engineering', 4, 'engleski'),
 (15, 'Животна средина и одрживи развој', 'Environment and Sustainable Development', 6, 'engleski'),
